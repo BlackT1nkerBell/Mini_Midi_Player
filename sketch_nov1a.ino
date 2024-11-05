@@ -95,7 +95,6 @@ CircuitPlayground.setPixelColor(0,0,0,0);
  CircuitPlayground.setPixelColor(9,0,0,0);
 }
 
-
 //A2
 valueA2 = analogRead(A2);
 if(valueA2 <touch){
@@ -291,7 +290,7 @@ if(valueA3 <touch){
   CircuitPlayground.playTone(262,428.5/2,false);
   delay(10);
   CircuitPlayground.playTone(247,428.5/2,false);
-  delay(10)
+  delay(10);
   CircuitPlayground.playTone(220,428.5,false);
   delay(10);
 
@@ -352,88 +351,272 @@ CircuitPlayground.setPixelColor(0,0,0,0);
 }
 
 
-// //A4
-// valueA4 = analogRead(A4);
-// if(valueA4 <touch){
-//  CircuitPlayground.setPixelColor(0,0xfcba03);
-//  CircuitPlayground.setPixelColor(1,0xfcba03);
-//   CircuitPlayground.setPixelColor(2,0xfcba03);
-//  CircuitPlayground.setPixelColor(3,0xfcba03);
-//   CircuitPlayground.setPixelColor(4,0xfcba03);
-//  CircuitPlayground.setPixelColor(5,0xfcba03);
-//   CircuitPlayground.setPixelColor(6,0xfcba03);
-//  CircuitPlayground.setPixelColor(7,0xfcba03);
-//   CircuitPlayground.setPixelColor(8,0xfcba03);
-//  CircuitPlayground.setPixelColor(9,0xfcba03);
-//   CircuitPlayground.playTone(50,1000);
-// } else{
-// CircuitPlayground.setPixelColor(0,0,0,0);
-//  CircuitPlayground.setPixelColor(1,0,0,0);
-//   CircuitPlayground.setPixelColor(2,0,0,0);
-//  CircuitPlayground.setPixelColor(3,0,0,0);
-//   CircuitPlayground.setPixelColor(4,0,0,0);
-//  CircuitPlayground.setPixelColor(5,0,0,0);
-//   CircuitPlayground.setPixelColor(6,0,0,0);
-//  CircuitPlayground.setPixelColor(7,0,0,0);
-//   CircuitPlayground.setPixelColor(8,0,0,0);
-//  CircuitPlayground.setPixelColor(9,0,0,0);
-// }
+//A4
+valueA4 = analogRead(A4);
+if(valueA4 <touch){
+ CircuitPlayground.setPixelColor(0,0xfcba03);
+ CircuitPlayground.setPixelColor(1,0xfcba03);
+  CircuitPlayground.setPixelColor(2,0xfcba03);
+ CircuitPlayground.setPixelColor(3,0xfcba03);
+  CircuitPlayground.setPixelColor(4,0xfcba03);
+ CircuitPlayground.setPixelColor(5,0xfcba03);
+  CircuitPlayground.setPixelColor(6,0xfcba03);
+ CircuitPlayground.setPixelColor(7,0xfcba03);
+  CircuitPlayground.setPixelColor(8,0xfcba03);
+ CircuitPlayground.setPixelColor(9,0xfcba03);
+
+  CircuitPlayground.playTone(220,461.5*2,false);
+  delay(461.5/2);
+  CircuitPlayground.playTone(220,461.5/2,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/2,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(220,461.5/2,false);
+  delay(10);
+  CircuitPlayground.playTone(196,461.5/4,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5,false);
+  delay(461.5/2);
+  CircuitPlayground.playTone(220,461.5/4,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(220,461.5/2,false);
+  delay(10);
+  CircuitPlayground.playTone(196,461.5/4,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5,false);
+  delay(461.5/2);
+  CircuitPlayground.playTone(220,461.5/4,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/3.5,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/3.5,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(165,4461.5/3.5,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/3.5,false);
+  delay(10);
+  CircuitPlayground.playTone(220,461.5/3,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/3.5,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/3.5,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/2,false);
+  delay(10);
+  CircuitPlayground.playTone(165,461.5/2,false);
+  delay(10);
+
+} else{
+CircuitPlayground.setPixelColor(0,0,0,0);
+ CircuitPlayground.setPixelColor(1,0,0,0);
+  CircuitPlayground.setPixelColor(2,0,0,0);
+ CircuitPlayground.setPixelColor(3,0,0,0);
+  CircuitPlayground.setPixelColor(4,0,0,0);
+ CircuitPlayground.setPixelColor(5,0,0,0);
+  CircuitPlayground.setPixelColor(6,0,0,0);
+ CircuitPlayground.setPixelColor(7,0,0,0);
+  CircuitPlayground.setPixelColor(8,0,0,0);
+ CircuitPlayground.setPixelColor(9,0,0,0);
+}
 
 
-// //A5
-// valueA5 = analogRead(A5);
-// if(valueA5 <touch){
-//  CircuitPlayground.setPixelColor(0,0xfcba03);
-//  CircuitPlayground.setPixelColor(1,0xfcba03);
-//   CircuitPlayground.setPixelColor(2,0xfcba03);
-//  CircuitPlayground.setPixelColor(3,0xfcba03);
-//   CircuitPlayground.setPixelColor(4,0xfcba03);
-//  CircuitPlayground.setPixelColor(5,0xfcba03);
-//   CircuitPlayground.setPixelColor(6,0xfcba03);
-//  CircuitPlayground.setPixelColor(7,0xfcba03);
-//   CircuitPlayground.setPixelColor(8,0xfcba03);
-//  CircuitPlayground.setPixelColor(9,0xfcba03);
-//   CircuitPlayground.playTone(50,1000);
-// } else{
-// CircuitPlayground.setPixelColor(0,0,0,0);
-//  CircuitPlayground.setPixelColor(1,0,0,0);
-//   CircuitPlayground.setPixelColor(2,0,0,0);
-//  CircuitPlayground.setPixelColor(3,0,0,0);
-//   CircuitPlayground.setPixelColor(4,0,0,0);
-//  CircuitPlayground.setPixelColor(5,0,0,0);
-//   CircuitPlayground.setPixelColor(6,0,0,0);
-//  CircuitPlayground.setPixelColor(7,0,0,0);
-//   CircuitPlayground.setPixelColor(8,0,0,0);
-//  CircuitPlayground.setPixelColor(9,0,0,0);
-// }
+//A5
+valueA5 = analogRead(A5);
+if(valueA5 <touch){
+ CircuitPlayground.setPixelColor(0,0xfcba03);
+ CircuitPlayground.setPixelColor(1,0xfcba03);
+  CircuitPlayground.setPixelColor(2,0xfcba03);
+ CircuitPlayground.setPixelColor(3,0xfcba03);
+  CircuitPlayground.setPixelColor(4,0xfcba03);
+ CircuitPlayground.setPixelColor(5,0xfcba03);
+  CircuitPlayground.setPixelColor(6,0xfcba03);
+ CircuitPlayground.setPixelColor(7,0xfcba03);
+  CircuitPlayground.setPixelColor(8,0xfcba03);
+ CircuitPlayground.setPixelColor(9,0xfcba03);
+
+  CircuitPlayground.playTone(175,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(233,500/2,false);
+  delay(1500);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(247,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(262,500/2,false);
+  delay(1500);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(247,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(262,500/2,false);
+  delay(500/2);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(247,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(262,500/2,false);
+  delay(500/2);
+  CircuitPlayground.playTone(175,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(233,500/2,false);
+  delay(1500);
+  CircuitPlayground.playTone(175,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+  
+  CircuitPlayground.playTone(233,500/2,false);
+  delay(1500);
+  CircuitPlayground.playTone(175,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(247,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(262,500/2,false);
+  delay(1500);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(247,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(262,500/2,false);
+  delay(500/2);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(247,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(262,500/2,false);
+  delay(500/2);
+  CircuitPlayground.playTone(175,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(196,500/3,false);
+  delay(10);
+  CircuitPlayground.playTone(220,500/3,false);
+  delay(10);
+
+  CircuitPlayground.playTone(233,500/2,false);
+  delay(750);
+    CircuitPlayground.playTone(175,2000,false);
+    delay(10);
+  CircuitPlayground.playTone(349,250,false);
 
 
-// //A6
-// valueA6 = analogRead(A6);
-// if(valueA6 <touch){
-//  CircuitPlayground.setPixelColor(0,0xfcba03);
-//  CircuitPlayground.setPixelColor(1,0xfcba03);
-//   CircuitPlayground.setPixelColor(2,0xfcba03);
-//  CircuitPlayground.setPixelColor(3,0xfcba03);
-//   CircuitPlayground.setPixelColor(4,0xfcba03);
-//  CircuitPlayground.setPixelColor(5,0xfcba03);
-//   CircuitPlayground.setPixelColor(6,0xfcba03);
-//  CircuitPlayground.setPixelColor(7,0xfcba03);
-//   CircuitPlayground.setPixelColor(8,0xfcba03);
-//  CircuitPlayground.setPixelColor(9,0xfcba03);
-//   CircuitPlayground.playTone(50,1000);
-// } else{
-// CircuitPlayground.setPixelColor(0,0,0,0);
-//  CircuitPlayground.setPixelColor(1,0,0,0);
-//   CircuitPlayground.setPixelColor(2,0,0,0);
-//  CircuitPlayground.setPixelColor(3,0,0,0);
-//   CircuitPlayground.setPixelColor(4,0,0,0);
-//  CircuitPlayground.setPixelColor(5,0,0,0);
-//   CircuitPlayground.setPixelColor(6,0,0,0);
-//  CircuitPlayground.setPixelColor(7,0,0,0);
-//   CircuitPlayground.setPixelColor(8,0,0,0);
-//  CircuitPlayground.setPixelColor(9,0,0,0);
-// }
+} else{
+CircuitPlayground.setPixelColor(0,0,0,0);
+ CircuitPlayground.setPixelColor(1,0,0,0);
+  CircuitPlayground.setPixelColor(2,0,0,0);
+ CircuitPlayground.setPixelColor(3,0,0,0);
+  CircuitPlayground.setPixelColor(4,0,0,0);
+ CircuitPlayground.setPixelColor(5,0,0,0);
+  CircuitPlayground.setPixelColor(6,0,0,0);
+ CircuitPlayground.setPixelColor(7,0,0,0);
+  CircuitPlayground.setPixelColor(8,0,0,0);
+ CircuitPlayground.setPixelColor(9,0,0,0);
+}
+
+
+//A6
+valueA6 = analogRead(A6);
+if(valueA6 <touch){
+ CircuitPlayground.setPixelColor(0,0xfcba03);
+ CircuitPlayground.setPixelColor(1,0xfcba03);
+  CircuitPlayground.setPixelColor(2,0xfcba03);
+ CircuitPlayground.setPixelColor(3,0xfcba03);
+  CircuitPlayground.setPixelColor(4,0xfcba03);
+ CircuitPlayground.setPixelColor(5,0xfcba03);
+  CircuitPlayground.setPixelColor(6,0xfcba03);
+ CircuitPlayground.setPixelColor(7,0xfcba03);
+  CircuitPlayground.setPixelColor(8,0xfcba03);
+ CircuitPlayground.setPixelColor(9,0xfcba03);
+
+  CircuitPlayground.playTone(659,333/2,false);
+  delay(10);
+  CircuitPlayground.playTone(659,333/2,false);
+  delay(333/2);
+  CircuitPlayground.playTone(659,333/2,false);
+  delay(10);
+  CircuitPlayground.playTone(523,333/2,false);
+  delay(10);
+  CircuitPlayground.playTone(659,333,false);
+  delay(10);
+
+  CircuitPlayground.playTone(659,333/2,false);
+  delay(10);
+  CircuitPlayground.playTone(659,333/2,false);
+  delay(333/2);
+  CircuitPlayground.playTone(659,333/2,false);
+  delay(10);
+  CircuitPlayground.playTone(523,333/2,false);
+  delay(10);
+  CircuitPlayground.playTone(659,333,false);
+  delay(10);
+
+  CircuitPlayground.playTone(784,333,false);
+  delay(333);
+  CircuitPlayground.playTone(392,333,false);
+  delay(333);
+
+} else{
+CircuitPlayground.setPixelColor(0,0,0,0);
+ CircuitPlayground.setPixelColor(1,0,0,0);
+  CircuitPlayground.setPixelColor(2,0,0,0);
+ CircuitPlayground.setPixelColor(3,0,0,0);
+  CircuitPlayground.setPixelColor(4,0,0,0);
+ CircuitPlayground.setPixelColor(5,0,0,0);
+  CircuitPlayground.setPixelColor(6,0,0,0);
+ CircuitPlayground.setPixelColor(7,0,0,0);
+  CircuitPlayground.setPixelColor(8,0,0,0);
+ CircuitPlayground.setPixelColor(9,0,0,0);
+}
 
 
 // //A7
